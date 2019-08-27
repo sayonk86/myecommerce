@@ -17,6 +17,10 @@ public class BasketService {
 	}
 
 	public static void main(String[] args) {
+		run();
+	}
+
+	public static void run() {
 		int totalPrice = 0;
 		BasketService service = new BasketService();
 		service.printOutput(service.prepareBasket(totalPrice));
